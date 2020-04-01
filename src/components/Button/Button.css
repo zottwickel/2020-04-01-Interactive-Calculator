@@ -1,0 +1,23 @@
+.button {
+  color: black;
+  background-color: rgb(255, 255, 102);
+  border: 1px solid black;
+  padding: auto;
+  font-size: 30px;
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+#clear {
+  font-size: 20px;
+  background-color: rgb(255, 26, 26);
+}
+
+#equals {
+  background-color: rgb(51, 204, 51);
+}

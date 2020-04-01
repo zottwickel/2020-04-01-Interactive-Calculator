@@ -1,88 +1,68 @@
-# Today's Objective: Interactive Calculator
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Prize
+## Available Scripts
 
-$25 CAD Amazon gift card + bragging rights.
+In the project directory, you can run:
 
-Tip: Read the [General Information Document]("./General\ Information.md") for more info on how to get started and submit.
+### `npm start`
 
-## Objective
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Interactive calculators are a beautiful way to inform, entertain, and educate people. Some of them are very beautiful, featuring graphs, charts, and animations. Many of them are simple, practical, and pragmatic. They find uses in marketing, engineering, finance, medicine -- pretty much every field. At some point in their careers, most developers have been involved in a calculator project or two.
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-Here are some examples of interesting interactive calculators. Notice that they all vary in feature sets, functionality, objective, and scope. Some of them focus on beauty and aesthetics, while others focus on practicality and simplicity.
+### `npm test`
 
-* https://goodcalculators.com/meat-cooking-time-calculator/
-* https://www.bills.com/debt/tools/ways-to-save
-* https://paulhoughton.github.io/mortgage/
-* http://www.diablo3gemcalculator.com/
-* https://calculator.numerologist.com/
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Today's objective is to create a simple interactive calculator of your own design.
+### `npm run build`
 
-## Requirements
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Create an interactive calculator! 
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-The design can be of your own choosing, and so this project is very open-ended. Here are some suggestions:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-`Tip: Make sure you choose an EASY problem! You only have 2h15m to finish while also writing clean code.`
+### `npm run eject`
 
-### Suggested project: Tip calculator
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-Take a restaurant bill and calculate how much tip you have to add on top of it. Easy peasy!
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Inputs: bill amount, tip percentage
-Outputs: tip amount, grand total
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-### Suggested project: Bill split calculator
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Take a restaurant bill and split it between a number of parties. 
+## Learn More
 
-Inputs: bill amount, number of parties.
-Outputs: amount of money each party has to pay
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To make it more fun, you can maybe create some kind of way to assign greater or lower ratios of the bill to different parties.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Suggested project: Compound growth calculator
+### Code Splitting
 
-Create a growth chart that tells you how fast a number will grow over time, given a growth rate.
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-Input: initial number, growth rate
-Output: a chart or table that shows you how much the number has grown over time.
+### Analyzing the Bundle Size
 
-### Or, do your own thing!
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-You can create something cooler if you wish. Please don't copy/paste old projects, though -- write from scratch, even if you're inspired by the old project :-)
+### Making a Progressive Web App
 
-## Restrictions
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-You must be able to deploy your project online.
-Your project must use JavaScript.
+### Advanced Configuration
 
-There are no other restrictions.
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-## Technology suggestions
+### Deployment
 
-* Templated HTML
-* React
-* Vue
-* Angular
-* Pure Express API - see StackOverflow link in "Library Suggestions" below
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-## Library suggestions
+### `npm run build` fails to minify
 
-Avoid D3.js unless you're already experienced at it. D3 is very powerful for custom graphs, but has an extremely steep learning curve, making it unsuitable for this project.
-
-Good libraries to use:
-* Google Charts - https://developers.google.com/chart
-* Plotly - https://plotly.com/javascript/plotly-fundamentals/
-* ChartJS - https://www.chartjs.org/
-* If you're using strictly backend, see https://stackoverflow.com/questions/44543729/how-to-render-a-graph-as-image-in-node. We have not tested any of these suggestions, but [Vega](https://www.npmjs.com/package/vega) looks great so far.
-
-## Tips for success:
-
-1. The project is intentionally simple so you can focus on code quality.
-1. The requirements are intentionally minimalistic so you can get as creative as you'd like.
-1. You get a LOT of time for code review comments. So you can win even if you feel your project isn't great, simply on the strength of your code review comments!
-1. Keep in mind, 33% of your score is based on aesthetic appeal! So try to make it look nice.
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
